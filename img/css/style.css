@@ -209,24 +209,13 @@ img {
 
 @media (min-width: 768px) {
     .sobre-nosotros {
-        display: flex;
-        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 2rem;
+        
     }
 
-    .sobre-nosotros__imagen,
-    .sobre-nosotros__texto {
-        flex-basis: 50%;
     }
-}
-
-
-
-
-
-
-
-
-
 
 
 
