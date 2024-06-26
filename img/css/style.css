@@ -76,7 +76,7 @@ img {
 
 .header {
     background-image: url(../banner.jpg);
-    height: 60rem;
+    height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -205,6 +205,19 @@ img {
     padding: 3rem 0;
 }
 
+/** Sobre Nosotros **/
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto {
+        flex-basis: 50%;
+    }
+}
 
 
 
